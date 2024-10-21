@@ -30,6 +30,8 @@ The solution uses the two-pointer technique to efficiently find the maximum area
   - Otherwise, decrement the right pointer.
 - Repeat: Continue this process until the two pointers meet.
 - Return Result: After the loop, return the maximum area found.
+### Dry Run
+![Dry Run](dry-run-container-with-most-water.png)
 ### Time Complexity
 O(N) - It will examine each element only once.
 ### Sapce Complexity
