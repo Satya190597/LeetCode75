@@ -11,5 +11,5 @@
 |No.|Question| Solution|
 |---|---------|----------|
 |1. |Find the Highest Altitude| [Solution Of Find the Highest Altitude](./Find%20the%20Highest%20Altitude) |
-|2. |Find Pivot Index| [Find Pivot Index](./Find%20Pivot%20Index) |
+|2. |Find Pivot Index| [Solution Of Find Pivot Index](./Find%20Pivot%20Index) |
 
