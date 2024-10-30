@@ -35,8 +35,10 @@ Prefix Sum
 - **Total Sum:** The pivot index requires knowledge of the total sum of the array to compare left and right sums.
 - **Left and Right Sums:** The left sum can be derived from the prefix sum up to the current index, while the right sum can be calculated as the total sum minus the prefix sum.
 - **Equality Condition:** For an index to be a pivot, the left sum (elements before the index) must equal the right sum (elements after the index).
-- The code uses a running total called prefixSum, which keeps track of the sum of elements from the start of the array up to the current index. This helps in determining the left sum and the right sum at each index.
+- The code uses a running total called **prefixSum**, which keeps track of the sum of elements from the start of the array up to the current index. This helps in determining the left sum and the right sum at each index.
+### Dry Run
+![Dry Run](dry-run-find-pivot-index.png)
 ### Time Complexity
 O(N) - where n is the length of the array, since the algorithm consists of two separate loops over the array.
 ### Space Complexity
-O(1), as it uses a fixed amount of extra space for variables, regardless of the input size.
+O(1) - as it uses a fixed amount of extra space for variables, regardless of the input size.
